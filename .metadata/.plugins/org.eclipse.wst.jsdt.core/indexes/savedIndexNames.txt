@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\Hutech\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4152394514.index
+822636008.index
+3974719065.index
+4243600474.index
+2752257310.index
+1954656851.index

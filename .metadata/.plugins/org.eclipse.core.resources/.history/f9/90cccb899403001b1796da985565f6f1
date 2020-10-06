@@ -1,0 +1,7 @@
+package com.bookstore.dao;
+
+import javax.persistence.EntityManager;
+
+public class JpaDAO<T> {
+	protected EntityManager entityManager;
+}

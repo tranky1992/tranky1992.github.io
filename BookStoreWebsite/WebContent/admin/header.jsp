@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div align="center">
+		<div>
+			<img src="../images/BookstoreAdminLogo.png">
+		</div><br>
+		<div>
+			Xin chào, Admin | <a href="logout"> Logout</a>
+			<br/><br/>
+		</div>
+		<div>
+		<b>
+			<a href="list_users"> Users</a> |
+			<a href="category"> Categories</a> |
+			<a href="books"> Books</a> |
+			<a href="customers"> Customers</a> |
+			<a href="reviews"> Reviews</a> |
+			<a href="orders"> Orders</a>
+			</b>
+		</div>
+</div>

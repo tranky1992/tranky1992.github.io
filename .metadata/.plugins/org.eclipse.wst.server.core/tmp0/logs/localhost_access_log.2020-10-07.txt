@@ -1,0 +1,9 @@
+127.0.0.1 - - [07/Oct/2020:10:19:46 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:22 +0700] "GET /BookStoreWebsite/ HTTP/1.1" 200 1121
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:22 +0700] "GET /BookStoreWebsite/images/BookstoreLogo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:22 +0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:28 +0700] "GET /BookStoreWebsite/admin/ HTTP/1.1" 200 1560
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:28 +0700] "GET /BookStoreWebsite/images/BookstoreAdminLogo.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:10:57:37 +0700] "GET /BookStoreWebsite/admin/list_users HTTP/1.1" 200 5931
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:11:00:01 +0700] "GET /BookStoreWebsite/admin/list_users HTTP/1.1" 200 5938
+127.0.0.1 - - [07/Oct/2020:14:15:12 +0700] "GET / HTTP/1.1" 404 751

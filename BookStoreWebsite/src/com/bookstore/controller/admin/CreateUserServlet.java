@@ -18,13 +18,14 @@ public class CreateUserServlet extends HttpServlet {
 			throws ServletException, IOException {
 		
 		
-		UserServices userServices = new UserServices();
+		UserServices userServices = new UserServices(request, response);
+		
 		response.setContentType("text/html;charset=UTF-8");
         request.setCharacterEncoding("utf-8");
-		userServices.createUser(request, response);
-		userServices.listUser(request, response);
-		response.setContentType("text/html;charset=UTF-8");
-        request.setCharacterEncoding("utf-8");
+		
+        userServices.createUser();
+		userServices.listUser("Người dùng mới được tạo thành công");
+		
 	}
 
 }

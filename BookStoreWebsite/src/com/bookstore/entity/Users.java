@@ -16,7 +16,8 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "users", catalog = "bookstoredb")
 @NamedQueries({
-	@NamedQuery(name = "Users.fillAll", query = "SELECT u FROM Users u ORDER BY u.fullName"),
+	@NamedQuery(name = "Users.fillAll", query = "SELECT u FROM Users u ORDER BY u.userId"),
+	@NamedQuery(name = "Users.findByEmail", query = "SELECT u FROM Users u WHERE u.email = :email"),
 	@NamedQuery(name = "Users.countAll", query = "SELECT Count(*) FROM Users u")
 }) 
 public class Users implements java.io.Serializable {

@@ -10,7 +10,7 @@
 	<div align="center">
 		<h2>Create New User</h2>
 	</div>
-	
+	<br>
 	<div align="center">
 	<form action="create_user" method="post" onsubmit="return validateFormInput()">
 	 <table>

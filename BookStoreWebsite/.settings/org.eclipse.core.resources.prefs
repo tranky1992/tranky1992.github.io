@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
 encoding//WebContent/frontend/header.jsp=UTF-8
+encoding//src/com/bookstore/controller/admin/CreateUserServlet.java=UTF-8
+encoding//src/com/bookstore/service/UserServices.java=UTF-8
